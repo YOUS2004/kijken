@@ -1,0 +1,1 @@
+{"username":"yous","loopband_1_status":"beschikbaar","loopband_2_status":"beschikbaar","loopband_3_status":"beschikbaar","loopband_4_status":"beschikbaar","loopband_5_status":"beschikbaar","smith_machine_status":"beschikbaar","roeisimulator_status":"beschikbaar","cross_trainer_status":"beschikbaar","spinner_status":"beschikbaar"}

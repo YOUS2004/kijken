@@ -1,0 +1,1 @@
+{"Loopband_1":"bezet","Loopband_2":"kapot","Loopband_3":"kapot","Loopband_4":"bezet","Smith machine":"kapot","Roeisimulator":"beschikbaar","Spinner":"beschikbaar","Cross trainer":"beschikbaar"}

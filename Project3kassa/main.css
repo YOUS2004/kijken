@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ff8800;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
+
+.kassa {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid hsl(256, 89%, 41%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+
+.quantity-btn {
+    
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.clear-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f83e31;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.numeric-keypad {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; 
+    width: 290px;
+    right: 290px;
+    bottom: 250px;
+}
+
+.numeric-keypad button {
+    width: 100%;
+}
+
+
+
+form{
+    color: blue;
+}
+
+
+#bedrag{
+    
+    position: absolute;
+    right: 190px;
+    bottom: 500px;
+
+}
+
+#item{
+   
+    position: absolute;
+    right: 215px;
+    bottom: 560px;
+
+}
+.div{
+    position: absolute;
+    right: 170px;
+    bottom: 125px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.container {
+    max-width: 40px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.numeric-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.numeric-keypad button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.numeric-keypad button:hover {
+    background-color: #b40000;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+form button, .clear-btn {
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form button:hover, .clear-btn:hover {
+    background-color: #c82333;
+}
+
+.result-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.result-container div {
+    margin-bottom: 10px;
+}
+
+.result-container div span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.group-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group-block {
+    background-color: #ff0000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+}
+
+.group-block:hover {
+    background-color: #eaeaea;
+}
+
+
+#uitloggen{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #f83e31;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
